@@ -1,10 +1,2 @@
-Title : ناروتو
-Money : 10الف
-Title : اوروتشيمارو
-Money : 100الف
-Title : ديكستر
-Money : ∞
-Title : ساتو
-Money : 999الف
-Title : زورو
-Money : 50الف
+Title : 〽️ لسا نجمع اعضاء اسفين 🔱
+Money : ---
