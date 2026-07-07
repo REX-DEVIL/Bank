@@ -124,7 +124,7 @@
             backdrop-filter: blur(4px);
             padding: 0.8rem 1.5rem;
             border-radius: 60px;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             border: 1px solid rgba(180, 130, 220, 0.15);
             box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
             flex-wrap: wrap;
@@ -189,6 +189,42 @@
             50% {
                 box-shadow: 0 4px 30px rgba(100, 40, 140, 0.6);
             }
+        }
+
+        /* Shop Button - New */
+        .shop-btn-container {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .shop-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #d9b0ff, #b47ad9);
+            color: #1a0f1f;
+            padding: 0.9rem 3rem;
+            border-radius: 60px;
+            text-decoration: none;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(180, 130, 220, 0.4);
+            border: 2px solid rgba(200, 150, 230, 0.3);
+            width: 100%;
+            text-align: center;
+        }
+
+        .shop-btn:hover {
+            transform: scale(1.03);
+            box-shadow: 0 12px 35px rgba(180, 130, 220, 0.6);
+            background: linear-gradient(135deg, #e6c4ff, #c49ae0);
+        }
+
+        .shop-btn:active {
+            transform: scale(0.97);
+        }
+
+        .shop-btn i {
+            margin-left: 0.8rem;
         }
 
         .bank-header {
@@ -510,6 +546,7 @@
             100% { transform: translateY(0) scale(1); opacity: 1; }
         }
 
+        /* Mobile Responsive */
         @media (max-width: 700px) {
             .bank-card { padding: 1.5rem 1rem; }
             .bank-header h1 { font-size: 1.8rem; }
@@ -526,6 +563,7 @@
             .music-controls .music-label { justify-content: center; }
             .bank-footer { flex-direction: column; align-items: stretch; }
             .footer-left { justify-content: center; }
+            .shop-btn { padding: 0.8rem 2rem; font-size: 1.1rem; }
         }
 
         /* Extra small screens */
@@ -571,6 +609,14 @@
                 <i class="fas fa-music"></i>
                 <span id="musicBtnText">♫ تشغيل</span>
             </button>
+        </div>
+
+        <!-- Shop Button - NEW -->
+        <div class="shop-btn-container">
+            <a href="shop.html" class="shop-btn">
+                <i class="fas fa-store"></i>
+                🛒 الذهاب إلى المتجر
+            </a>
         </div>
 
         <div class="bank-header">
