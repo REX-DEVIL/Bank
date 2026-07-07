@@ -1,15 +1,19 @@
 Title : غرانجر
 Money : ∞
-Title : يوهاباخ
-Money : ∞
-Title : سويو
-Money : ∞
-Title : اومي
-Money : ∞
-Title : ايانوكوجي
-Money : ∞
 Title : ديكستر
-Money : ∞
+Money : 500 الف
+Title : يوهاباخ
+Money : 500 الف
+Title : سويو
+Money : 500 الف
+Title : اومي
+Money : 500 الف
+Title : ايانوكوجي
+Money : 500 الف
+Title : ناخت
+Money : 500 الف
+Title : كانيكي
+Money : 500 الف
 Title : مادارا
 Money : 200 الف
 Title : ايزن
