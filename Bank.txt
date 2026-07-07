@@ -10,3 +10,21 @@ Title : ايانوكوجي
 Money : ∞
 Title : ديكستر
 Money : ∞
+Title : مادارا
+Money : 200 الف
+Title : ايزن
+Money : 200 الف
+Title : هانكوك
+Money : 100 الف
+Title : سوزومي
+Money : 75 الف
+Title : توجي
+Money : 75 الف
+Title : كوتشيكي
+Money : 75 الف
+Title : ناغومو
+Money : 50 الف
+Title : يونا
+Money : 50 الف
+Title : ميغومي
+Money : 25 الف
